@@ -9,7 +9,7 @@ CORS(app)
 # Initialize recommendation system
 print("Initializing recommendation system...")
 recommender = YouTubeRecommendationSystem()
-print("Recommendation system ready")
+print("Recommendation System ready")
 
 @app.route('/')
 def index():
