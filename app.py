@@ -44,7 +44,7 @@ def get_trending():
         trending = recommender.get_trending_videos(
             country=country,
             category_id=category_id,
-            n_videos=n
+            n_videos=
         )
         
         return jsonify({
