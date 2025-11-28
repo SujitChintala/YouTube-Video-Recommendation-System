@@ -62,7 +62,7 @@ def search_videos():
         n = request.args.get('n', default=20, type=int)
         
         if not query:
-            return jsonify({'error': 'Query parameter "q" is required'}), 400
+            return jsonify({'error': 'Query parameter "Q" is required'}), 400
         
         results = recommender.search_videos(query=query, n_results=n)
         
