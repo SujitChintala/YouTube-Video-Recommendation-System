@@ -261,7 +261,7 @@ if __name__ == "__main__":
         print(f"   Views: {video['views']:,} | Likes: {video['likes']:,}\n")
     
     # Example 3: Search videos
-    print("\n" + "="*50)
+    print("\n" + "="*40)
     print("Example 3: Search for 'music' videos")
     print("="*50)
     search_results = recommender.search_videos('music', n_results=5)
