@@ -7,7 +7,7 @@ app = Flask(__name__, static_folder='frontend')
 CORS(app)
 
 # Initialize recommendation system
-print("Initializing recommendation system...")
+print("Initializing Recommendation System...")
 recommender = YouTubeRecommendationSystem()
 print("Recommendation System Ready")
 
