@@ -67,7 +67,7 @@ class YouTubeRecommendationSystem:
         
     def get_recommendations(self, video_id=None, title=None, n_recommendations=10):
         """
-        Get video recommendations based on either video_id or title
+        Get video recommendations based on either video_id or title.
         
         Parameters:
         - video_id: YouTube video ID
