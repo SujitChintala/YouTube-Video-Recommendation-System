@@ -251,7 +251,7 @@ if __name__ == "__main__":
         print(f"   Similarity: {rec['similarity_score']:.3f}\n")
     
     # Example 2: Get trending videos
-    print("\n" + "="*40)
+    print("\n" + "="*35)
     print("Example 2: Trending Videos in US")
     print("="*50)
     trending = recommender.get_trending_videos(country='US', n_videos=5)
