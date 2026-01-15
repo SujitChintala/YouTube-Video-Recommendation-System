@@ -9,3 +9,4 @@ wordcloud==1.9.2
 jupyter
 notebook
 ipywidgets
+numpy
