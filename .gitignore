@@ -2,6 +2,7 @@
 venv
 venv/
 .venv
+.venv/
 
 # Merged data file (this is over 100MB)
 data/merged_youtube_data.csv
